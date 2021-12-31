@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "dev:server": "DEBUG=app:* ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts ",
+    "build": "./scripts/tsc.sh",
+    "run-build": "./scripts/run-build.sh",
+    "dev:server": "./scripts/dev-server.sh",
     "test": "jest",
     "build-image": "docker build -t <username>/base-project .",
     "run-image": "docker run -p <PORT>:<PORT_APP> -d <username>/base-project",
