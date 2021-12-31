@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "./scripts/tsc.sh",
+    "build": "tsc",
+    "dev-build": "./scripts/dev-build.sh",
     "run-build": "./scripts/run-build.sh",
     "dev:server": "./scripts/dev-server.sh",
     "test": "jest",
