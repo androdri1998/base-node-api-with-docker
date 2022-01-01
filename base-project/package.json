@@ -16,7 +16,8 @@
     "docker-compose-up": "docker-compose up -d",
     "docker-compose-down": "docker-compose down",
     "docker-compose-start": "docker-compose start",
-    "docker-compose-stop": "docker-compose stop"
+    "docker-compose-stop": "docker-compose stop",
+    "docker-compose-build-script": "./scripts/docker-compose-build.sh"
   },
   "dependencies": {
     "cors": "^2.8.5",
